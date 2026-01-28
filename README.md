@@ -17,7 +17,7 @@
 
 ### 系統需求
 
-- Python 3.x
+- Python 3.10.9
 - Windows 作業系統
 - 網路連線（呼叫 Google API）
 
@@ -134,35 +134,7 @@ input_text_with_focus_switch() 輸入文字到目標視窗
 - **目標視窗記錄失敗**：若未成功取得目標視窗，程式會顯示「未記錄目標視窗」的警告訊息。
 - **API 變動風險**：Google 的非公開 API 可能未來有變動風險，若 API 介面或網址更改，程式可能需同步調整。
 - **剪貼簿操作**：程式會暫時使用剪貼簿貼上文字，輸入完成後會恢復原始內容。
-
-## 授權條款
-
-MIT License
-
-Copyright (c) 2025 [Your Name]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-## 貢獻
-
-如果你有任何建議或發現 Bug，歡迎提交 Issue 或 Pull Request！
-
+- 
 ## 常見問題 (FAQ)
 
 **Q: 程式無法辨識我的筆跡**  
